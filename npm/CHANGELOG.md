@@ -1,5 +1,11 @@
 # @penumbra-labs/registry
 
+## 8.0.2
+
+### Patch Changes
+
+- Change the regex method for testnet-preview matches
+
 ## 8.0.1
 
 ### Patch Changes

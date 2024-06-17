@@ -1,4 +1,4 @@
-const TESTNET_PREVIEW_PATTERN = /^(penumbra-testnet-(?:\w+-)*\w+)-[a-f0-9]{8}$/;
+const TESTNET_PREVIEW_PATTERN = /^(penumbra-testnet-(?:\w+-)*\w+)-\d+$/;
 
 export const isTestnetPreviewChainId = (chainId: string) => {
   return TESTNET_PREVIEW_PATTERN.test(chainId);
